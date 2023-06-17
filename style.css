@@ -1,0 +1,67 @@
+*{
+    font-family: font-taylor;
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(172, 158, 184);
+    height: 70px;
+}
+
+.box-centro img{
+    width: 210px;
+    height: 45.15px;
+    margin-right: 75px;
+    margin-top: 5px;
+}
+
+.box-esquerda{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.box-direita img{
+    width: 300px;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+.box-esquerda a{
+    color: #0f1d28;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight:900;
+}
+
+@font-face {
+    font-family: font-taylor;
+    src: url('./fonts/NeueHaasDisplayLight.ttf'); 
+}
+
+.botao-menu{
+    background-color: #0f1d28; 
+    padding: 8px 20px 8px 20px;
+}
+
+.botao-menu:hover{
+    background-color: #0a131b;
+}
+
+.botao-menu a{
+    color: rgb(172, 158, 184);
+}
+
+.botao-menu a img{
+    padding-left: 5px;
+}
+
+.principal video{
+    width: 100%;
+}
